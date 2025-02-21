@@ -1,0 +1,16 @@
+{
+  "name": "reading-qr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "jimp": "^1.6.0",
+    "qrcode-reader": "^1.0.4"
+  }
+}
