@@ -6,8 +6,8 @@ This repository contains my solutions to various [Hackattic](https://hackattic.c
 
 1. Navigate to the challenge folder:
 
-````sh
+```sh
 npm install
 
-node index.js```
-````
+node index.js
+```
