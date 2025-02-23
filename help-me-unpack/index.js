@@ -27,20 +27,15 @@ const readBuffer = (buffer) => {
 
   const int32 = buffer.readInt32LE(offset);
   offset += 4;
-  console.log(int32);
 
   const uint32 = buffer.readUInt32LE(offset);
   offset += 4;
-  console.log(uint32);
 
   const short = buffer.readInt16LE(offset);
   offset += 2;
-  console.log(short);
 
-  console.log(offset);
-  const float = buffer.readFloatLE(offset);
-  offset += 4.0;
-  console.log(float);
+  const float = buffer.readFloatLE(offset + 2);
+  offset += 6;
 
   const double = buffer.readDoubleLE(offset);
   offset += 8;
