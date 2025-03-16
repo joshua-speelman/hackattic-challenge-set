@@ -2,6 +2,7 @@ const axios = require("axios");
 const crypto = require("crypto");
 
 const main = async () => {
+<<<<<<< HEAD
     
     const problemData = await getProblemSet();
     const block = problemData.block;
